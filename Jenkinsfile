@@ -19,5 +19,11 @@ pipeline {
       }
     }
 
+    stage('javadoc') {
+      steps {
+        build 'Project_Doc'
+      }
+    }
+
   }
 }
