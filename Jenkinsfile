@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('compile') {
+      steps {
+        build 'Project_Compile'
+      }
+    }
+
   }
 }
