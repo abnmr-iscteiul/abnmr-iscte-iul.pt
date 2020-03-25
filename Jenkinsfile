@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('clean') {
       steps {
-        build 'clean'
+        sh 'clean'
       }
     }
 
