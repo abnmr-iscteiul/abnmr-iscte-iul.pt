@@ -1,11 +1,6 @@
 package Projeto_ES2.Projeto_ES2;
 
 public class Amostra {
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-		System.out.println("Hello World2");
-	}
-
     /**
      * Calculates the square of a number
      * @param x the incoming number
